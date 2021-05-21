@@ -1,0 +1,30 @@
+li {
+    margin: 10px;
+    padding: 10px;
+}
+
+.detail-link {
+    padding: 10px 0px 10px 0px;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 0px 80px 0px 0px;
+}
+
+li button {
+    margin-right: 10px;
+    padding: 5px;
+}
