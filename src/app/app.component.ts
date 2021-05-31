@@ -15,6 +15,7 @@ export class AppComponent implements OnInit, OnDestroy  {
 
   constructor() {}
 
+  // tslint:disable-next-line:typedef
   ngOnInit() {
     const counter = Observable.interval(60000);
     this.counterSubscription = counter.subscribe(
